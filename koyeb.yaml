@@ -1,0 +1,11 @@
+name: testrailway
+services:
+  - name: web
+    static:
+      directory: .
+    ports:
+      - port: 80
+        protocol: HTTP
+    routes:
+      - path: /
+        port: 80
