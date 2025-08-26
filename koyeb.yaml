@@ -1,4 +1,8 @@
 name: testrailway
+builds:
+  - name: static
+    type: static
+    source: .
 services:
   - name: web
     static:
